@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "neustrack-mobile",
-    "slug": "neustrack-mobile",
+    "slug": "neustrack",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -36,6 +36,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "f93b0e8f-2b42-4e53-83e7-75a57c71d2f3"
+      }
+    },
+    "owner": "shvaika"
   }
 }
