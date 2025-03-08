@@ -5,8 +5,9 @@ export default function Index() {
   return (
     <View style={styles.container}>
       <Text style={styles.text}>Neustrack</Text>
+      <Link href="/sign-in">Sign In</Link>
       <Link href="/about" style={styles.button}>
-        Go to about screen
+        About
       </Link>
     </View>
   );
