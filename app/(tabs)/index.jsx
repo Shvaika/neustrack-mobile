@@ -5,10 +5,6 @@ export default function Index() {
   return (
     <View style={styles.container}>
       <Text style={styles.text}>Neustrack</Text>
-      <Link href="/sign-in">Sign In</Link>
-      <Link href="/about" style={styles.button}>
-        About
-      </Link>
     </View>
   );
 }
@@ -21,6 +17,7 @@ const styles = StyleSheet.create({
     justifyContent: "center",
   },
   text: {
+    fontSize: "20",
     color: "#fff",
   },
   button: {
